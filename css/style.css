@@ -5,7 +5,7 @@
     }
  body{
     width: 100%;
-    color: #069;
+    color: rgb(70, 95, 107);
     text-align: center;
     min-height: 100vh;
     font-weight: bold;
@@ -19,19 +19,19 @@
        overflow-y: scroll;
        height: 90vh;
        padding: 15px 2%;
-       box-shadow: 0 0 5px #069;
+       box-shadow: 0 0 5px #000;
    }
 .container::-webkit-scrollbar{
        width: 14px;
-       border: 1px solid #069;
+       border: 1px solid #000;
    }
 .container::-webkit-scrollbar-thumb{
-       background-color: #069;
+       background-color: #000;
        border-radius: 6px;
    }
 .hr_dados1{
-	border-top: medium dashed #069;
-	border-bottom: medium dashed #069;
+	border-top: medium dashed #000;
+	border-bottom: medium dashed #000;
 	height: 5px;
 	overflow: visible;
 	padding: 0;
@@ -47,15 +47,15 @@
 	background: white;
   }
 .hr_01{
-	border-top: medium dashed #069;
-	border-bottom: medium dashed #069;
+	border-top: medium dashed #000;
+	border-bottom: medium dashed #000;
 	height: 3px;
 	overflow: visible;
 	padding: 0;
 	text-align: center;
   }
 .hr_01::after{
- content: 'Objetivo';
+ content: 'Perfil Profissional';
  display: inline;
  position: relative;
  top: -0.7em;
@@ -64,15 +64,15 @@
  background-color: #fff;
   }
 .hr_02{
-	border-top: medium dashed #069;
-	border-bottom: medium dashed #069;
+	border-top: medium dashed #000;
+	border-bottom: medium dashed #000;
 	height: 3px;
 	overflow: visible;
 	padding: 0;
 	text-align: center;
     }
 .hr_02::after{
-    content: 'Resumo';
+    content: 'Objetivos';
     display: inline;
     position: relative;
     top: -0.7em;
@@ -81,8 +81,8 @@
     background-color: #fff;
     }
 .hr_03{
-	border-top: medium dashed #069;
-	border-bottom: medium dashed #069;
+	border-top: medium dashed #000;
+	border-bottom: medium dashed #000;
 	height: 3px;
 	overflow: visible;
 	padding: 0;
@@ -98,8 +98,8 @@
    background-color: #fff;
   }
 .hr_04{
-	border-top: medium dashed #069;
-	border-bottom: medium dashed #069;
+	border-top: medium dashed #000;
+	border-bottom: medium dashed #000;
 	height: 3px;
 	overflow: visible;
 	padding: 0;
@@ -115,8 +115,8 @@
    background-color: #fff;
   }
 .hr_05{
-	border-top: medium dashed #069;
-	border-bottom: medium dashed #069;
+	border-top: medium dashed #000;
+	border-bottom: medium dashed #000;
 	height: 3px;
 	overflow: visible;
 	padding: 0;
@@ -132,8 +132,8 @@
   background-color: #fff;
   }
 .hr_06{
-	border-top: medium dashed #069;
-	border-bottom: medium dashed #069;
+	border-top: medium dashed #000;
+	border-bottom: medium dashed #000;
 	height: 3px;
 	overflow: visible;
 	padding: 0;
@@ -149,8 +149,8 @@
    background-color: #fff;
   }
   .hr_07{
-	border-top: medium dashed #069;
-	border-bottom: medium dashed #069;
+	border-top: medium dashed #000;
+	border-bottom: medium dashed #000;
 	height: 3px;
 	overflow: visible;
 	padding: 0;
@@ -165,15 +165,34 @@
     padding: 0 0.3em;
     background-color: #fff;
     }
-.hr_08{
-	border-top: medium dashed #069;
-	border-bottom: medium dashed #069;
+
+  
+  .hr_08{
+	border-top: medium dashed #000;
+	border-bottom: medium dashed #000;
 	height: 3px;
 	overflow: visible;
 	padding: 0;
 	text-align: center;
   }
 .hr_08::after{
+    content: 'Certificações';
+    display: inline;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.4em;
+    padding: 0 0.3em;
+    background-color: #fff;
+    }
+.hr_09{
+	border-top: medium dashed #000;
+	border-bottom: medium dashed #000;
+	height: 3px;
+	overflow: visible;
+	padding: 0;
+	text-align: center;
+  }
+.hr_09::after{
    content: 'Redes Sociais';
    display: inline;
    position: relative;
